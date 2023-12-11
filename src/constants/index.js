@@ -19,20 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  nextjs,
+  todo,
+  rustscrape,
+  ruststore,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
   },
   {
     id: "contact",
@@ -97,8 +93,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "git",
@@ -198,9 +194,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Note Todo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A powerful all-in-one web app seamlessly integrating cloud synchronization, to-do lists, note-taking, customer support, and insightful stats dashboard features for a streamlined and organized digital experience.",
     tags: [
       {
         name: "react",
@@ -211,54 +207,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "NextJS",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/HarmanPreet-Singh-XYT/NoteTodo_MERN",
   },
   {
-    name: "Job IT",
+    name: "Rust Game Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "One-stop online destination for purchasing in-game items for Rust. Explore a wide range of gear, weapons, and supplies directly from our website, with dedicated support to ensure a smooth and secure transaction process for enhancing your Rust gaming experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NextJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "nodejs",
+        color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: ruststore,
+    source_code_link: "https://github.com/HarmanPreet-Singh-XYT/Rust-Store-CustomServer",
   },
   {
-    name: "Trip Guide",
+    name: "Rust Skin Scrape",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Python script designed for Rust enthusiasts seeking the latest server skins data. Empowering your server browsing experience by effortlessly scraping and retrieving up-to-date skin information. Stay ahead in the game with this handy script, ensuring you have the freshest data at your fingertips for the ultimate Rust server exploration.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: rustscrape,
+    source_code_link: "https://github.com/HarmanPreet-Singh-XYT/Rust-Skins_Scrape-Latest-Skins",
   },
 ];
 
